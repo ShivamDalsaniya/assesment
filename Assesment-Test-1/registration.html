@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Student Registration Form</h1>
+    </div>
+
+    <div class="info">
+        <table>
+            <tr>
+                <th>First Name:</th>
+                <td><input type="text" name="Fname" placeholder="Enter Your First Name" required></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td><input type="text" name="Lname" placeholder="Enter Your Last Name" required></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" name="email" placeholder="Enter Your Email"></td>
+            </tr>
+            <tr>
+                <th>Mobile:</th>
+                <td><input type="number" name="phone" placeholder="Enrer Your Phone Number"></td>
+            </tr>
+            <tr>
+                <th>gender</th>
+                <td>Male<input type="radio" name="one" value="male" style="width: auto; height: auto;">
+                    female <input type="radio" name="one" value="female" style="width: auto; height: auto;"></td>
+            </tr>
+            <tr>
+                <th>Date Of Birth:</th>
+                <td><input type="date" name="birth"></td>
+            </tr>
+            <tr>
+                <th>Adress:</th>
+                <td><input type="text" name="adress"></td>
+            </tr>
+            <tr>
+                <th>City:</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Area Pin:</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>State:</th>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <th>Qualifications:</th>
+                <td><input list="countries" name="country" id="country" placeholder="Select Qualification">
+                    <datalist id="countries">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <th>Specialization</th>
+                <td><input type="checkbox" name="chk" value="computer" style="width: auto; height: auto;">Computer
+                    Sciencebr
+                    <br>
+                    <input type="checkbox" name="chk" value="Technology" style="width: auto; height: auto;">Information
+                    Technology
+                    <br>
+                    <input type="checkbox" name="chk" value="Archietucture" style="width: auto; height: auto;">Computer
+                    Archietucture
+                    <br>
+                    <input type="checkbox" name="chk" value="table" style="width: auto; height: auto;">Table
+                    Communication
+                </td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="text" name="phone" placeholder=""></td>
+            </tr>
+            <tr>
+                <th><button>Registered</button></th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
