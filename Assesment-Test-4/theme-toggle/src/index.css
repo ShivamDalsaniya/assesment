@@ -1,0 +1,93 @@
+/* src/App.css */
+.app {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.app.dark .login-container {
+  background-color: #444;
+  color: #fff;
+}
+
+input {
+  display: block;
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.app.dark input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+button {
+  padding: 10px;
+  width: 40%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.theme-toggle {
+  position: absolute;
+  width: 10%;
+  top: 40px;
+  /* right: 20px; */
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.app.dark button {
+  background-color: #555;
+  color: #fff;
+}
+
+.app.light button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
+}
